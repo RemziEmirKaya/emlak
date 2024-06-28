@@ -1,0 +1,43 @@
+/* HomePage.css */
+.home-page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.side-bar {
+  width: 200px;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.filter-container {
+  margin-bottom: 20px;
+}
+
+.filter-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.filter-container .ant-select {
+  width: 100%;
+}
+
+.filter-container .ant-switch {
+  margin-left: 8px;
+}
+
+.logout-container {
+  text-align: right;
+}
+
+.logout-link {
+  color: #1890ff; /* Ant Design primary color */
+}

@@ -1,0 +1,42 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.login-content {
+  max-width: 400px;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+  text-align: center;
+  color: #1890ff;
+  margin-bottom: 24px;
+}
+
+.login-form {
+  width: 100%;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.login-button {
+  width: 100%;
+}
+
+.register-link {
+  display: block;
+  text-align: center;
+  color: #1890ff;
+  margin-top: 8px;
+}
